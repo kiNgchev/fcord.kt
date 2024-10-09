@@ -84,7 +84,15 @@ Or Jitpack repository
 ---
 ## example
 ```kotlin
+suspend fun main() {
+    val stats = BotStats()
+        .servers(7)
+        .shards(1)
 
+    mircord("Place your Mircord API token here") {
+        updateStatistic(stats)
+    }
+}
 ```
 ---
 ## This project is supported by JetBrains
