@@ -1,0 +1,1 @@
+sourceset_dependencies = '{":fcord-common:dokkaHtmlPartial/main":[]}'

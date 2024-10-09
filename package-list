@@ -1,0 +1,6 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+module:fcord-common
+net.kingchev.fcord
+net.kingchev.fcord.entity
