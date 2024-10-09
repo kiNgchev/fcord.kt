@@ -1,3 +1,6 @@
+> [!WARNING]
+> **LIBRARY WAS RELEASED BEFORE RELEASE FCORD**
+> So, this library has no actuality before release Fcord monitoring
 # Fcord.kt
 
 Fcord.kt is a coroutine-based implementation of Fcord API, written 100% in Kotlin
