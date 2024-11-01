@@ -60,15 +60,15 @@ publishing {
                     password = getenv("NEXUS_PASSWORD")
                 }
             }
-
-            maven {
-                name = "GitHubPackages"
-                url = uri("https://maven.pkg.github.com/kiNgchev/fcord.kt")
-                credentials {
-                    username = getenv("GITHUB_ACTOR")
-                    password = getenv("GITHUB_TOKEN")
-                }
-            }
+            // А чтоб не втыкал
+            //maven {
+            //    name = "GitHubPackages"
+            //    url = uri("https://maven.pkg.github.com/kiNgchev/fcord.kt")
+            //    credentials {
+            //        username = getenv("GITHUB_ACTOR")
+            //        password = getenv("GITHUB_TOKEN")
+            //    }
+            //}
         }
     }
 }
